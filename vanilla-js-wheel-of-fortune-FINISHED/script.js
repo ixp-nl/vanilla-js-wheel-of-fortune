@@ -9,9 +9,9 @@
     // Disable button during spin
     startButton.style.pointerEvents = 'none';
     // Calculate a new rotation between 5000 and 10 000
-    deg = Math.floor(5000 + Math.random() * 5000);
+    deg = Math.floor(2000 + Math.random() * 2000);
     // Set the transition on the wheel
-    wheel.style.transition = 'all 10s ease-out';
+    wheel.style.transition = 'all 5s ease-out';
     // Rotate the wheel
     wheel.style.transform = `rotate(${deg}deg)`;
     // Apply the blur
